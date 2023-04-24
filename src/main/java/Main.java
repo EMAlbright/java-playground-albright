@@ -7,7 +7,6 @@ public class Main {
 
 
         Action[] animals = new Action[]{coco, devil, curb, legoCar};
-
         for(Action animal: animals){
             animal.play(legoCar);
         }
